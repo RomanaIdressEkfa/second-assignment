@@ -42,8 +42,13 @@ body{
     height: 414px;
     margin-right: 180px;
     margin-top: 110px;
-   
+    /* transform: scale(1);
+    transition: transform 2s ease-in-out;
+    */
 }
+/* .camera:hover{
+    transition: transform 2s ease-in-out;
+} */
 
  /*----------------------
   main part css
@@ -151,5 +156,49 @@ body{
   }
   .social-icon .fab{
       margin-right: 15px;
-      
-  }
+ }
+
+ /*-------------------------------------
+    Media Query For Mobile Device
+ ------------------------------------------ */
+@media (max-width:688px) {
+    .container{
+     width: 100%;
+    }
+    .info{
+        margin-right: 202px;
+        font-size:16px;
+       
+    }
+    .journey{
+        font-size: 30px;
+    }
+    .popular{
+        margin-left: 40px;
+    }
+    .collection{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 20px;
+    }
+    .more{
+        margin-right: 50px;
+    }
+    .account{
+        margin-right: 200px;
+        font-size: 24px;
+    }
+    .text{
+        margin-left: 20px;
+    }
+    .form{
+        margin-left: 5px;
+    }
+    .space{
+        margin-bottom: 2px;
+        padding: 7px;
+    }
+    .button{
+        padding: 10px;
+
+    }
+}
