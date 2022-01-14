@@ -170,8 +170,21 @@ body{
         font-size:16px;
        
     }
+   
+   .camera{
+       width: 220px;
+   }
+    .flexbox{
+        display: block;
+    }
     .journey{
-        font-size: 30px;
+        font-size: 24px;
+        margin-right: 100px;
+    }
+    .limit{
+        font-size: 15px;
+        text-align: center;
+        margin-right: 140px;
     }
     .popular{
         margin-left: 40px;
