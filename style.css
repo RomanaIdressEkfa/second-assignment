@@ -67,3 +67,58 @@ body{
       margin-right: 30px;
       padding: 16px;
   }
+
+  .font{
+      font-size: 24px;
+      line-height: 2px;
+  }
+  .star{
+      display: flex;
+      align-items: center;
+      line-height: 2px;
+     
+  }
+  .fa-star,.fa-star-half-alt{
+    color:orange ;
+    font-size: 12px;
+    
+  }
+  .gap{
+      margin-left: 16px;
+      font-size: 14px;
+      font-weight: 600;
+      color: gray;
+  }
+  .shift{
+      color:gray;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 6px;
+  }
+
+  /* -----------------------
+        See More part
+  -------------- ---------*/
+  .more{
+   color: #E02C6D;
+   text-align: right;
+   margin-right: 196px;
+
+  }
+  /*--------------------
+       footer part
+  ------------------------ */
+  footer{
+     background-color: black;
+     height: auto;
+     color: #FFFFFF;
+     text-align: center;
+     
+  }
+  .foot{
+    padding: 20px;
+  }
+  .social-icon .fab{
+      margin-right: 15px;
+      
+  }
