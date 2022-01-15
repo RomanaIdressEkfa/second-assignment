@@ -40,7 +40,10 @@ body{
 }
 .icon{
     margin-top: 87px;
-    margin-right: 25px;
+
+}
+.fa-search{
+    margin-right:25px;
 
 }
 .flexbox{
@@ -101,14 +104,15 @@ body{
   }
 
   .font{
-      font-size: 24px;
+      font-size: 22px;
       line-height: 2px;
+
   }
   .star{
       display: flex;
       align-items: center;
       line-height: 2px;
-     
+      
   }
   .fa-star,.fa-star-half-alt{
     color:orange ;
