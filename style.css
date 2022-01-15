@@ -311,8 +311,6 @@ Media Query For Tablet
         
         }
         .influencer{
-            
-            margin-left: 30%;
             text-align: center;
          
         }
@@ -358,8 +356,7 @@ Media Query For Tablet
             grid-template-columns: repeat(2,1fr);
             margin-left: 20px;
             align-items: center;
-            width: 10px;
-            display: flex;
+            padding:5%;  
         }
         .more{
             margin-left: 60px;
