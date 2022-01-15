@@ -213,16 +213,21 @@ body{
     .influencer{
         
         margin-left: 40px;
+        text-align: center;
     }
     .info{
         margin-right: 140px;
-        font-size:20px;
+        font-size:16px;
         text-align: center;
         margin-top: 35px;
         margin-left: 15px;
     }
     .navbar{
         display: none;
+    }
+    .main{
+        text-align: center;
+        margin: 0 auto;
     }
    
    .camera{
@@ -231,9 +236,11 @@ body{
     .flexbox{
         display: block;
         margin-top: 5px;
+        max-width: 100%;
+        text-align: center;
     }
     .journey{
-        font-size: ;
+        font-size:18px ;
        
         margin-right: 80px;
     }
@@ -251,12 +258,14 @@ body{
         grid-template-columns: repeat(1,1fr);
         margin-left: 20px;
         align-items: center;
+        width: 10px;
     }
     .more{
         margin-left: 60px;
         text-align: end;
     }
     .container{
+        max-width: 100%;
         text-align: center;
     }
     .account{
@@ -293,58 +302,93 @@ Media Query end for Mobile Device
 /* -------------------------
 Media Query For Tablet
 -------------------------- */
-@media (max-width:992px) and (min-width:689) {
-    .container{
-     width: 100%;
-    }
-    .info{
-        margin-right: 202px;
-        font-size:16px;
+@media (max-width:992px) and (min-width:689px) {
+    
+        .container{
+      
+         text-align: center;
+         flex-direction: column;
+         margin: 0 auto;
+        
+        }
+        .influencer{
+            
+            margin-left: 40px;
+            text-align: center;
+        }
+        .info{
+            margin-right: 140px;
+            font-size:16px;
+            text-align: center;
+            margin-top: 35px;
+            margin-left: 15px;
+        }
+        .navbar{
+            display: none;
+        }
+        .main{
+            text-align: center;
+            margin: 0 auto;
+        }
        
+       .camera{
+           width: auto;
+       }
+        .flexbox{
+            display: block;
+            margin-top: 5px;
+            max-width: 100%;
+            text-align: center;
+        }
+        .journey{
+            font-size:18px ;
+           
+            margin-right: 80px;
+        }
+        .limit{
+            font-size: 15px;
+            text-align: center;
+            margin-right: 140px;
+        }
+        .popular{
+            padding-left: 12px;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+        .collection{
+            grid-template-columns: repeat(2,1fr);
+            margin-left: 20px;
+            align-items: center;
+            width: 10px;
+        }
+        .more{
+            margin-left: 60px;
+            text-align: end;
+        }
+        .container{
+            max-width: 100%;
+            text-align: center;
+        }
+        .account{
+            margin-right: 200px;
+            font-size: 24px;
+        }
+        .text{
+            margin-left: 20px;
+        }
+        .form{
+            margin-left: 20px;
+            text-align: center;
+        }
+        .space{
+            margin-bottom: 2px;
+            padding: 7px;
+        }
+        .button{
+            padding: 10px;
+    
+        }
+        footer{
+            max-width: 100%;
+        }
     }
-   
-   .camera{
-       width: 220px;
-   }
-    .flexbox{
-        display: block;
-    }
-    .journey{
-        font-size: 24px;
-        margin-right: 100px;
-    }
-    .limit{
-        font-size: 15px;
-        text-align: center;
-        margin-right: 140px;
-    }
-    .popular{
-        margin-left: 30px;
-        text-align: center;
-    }
-    .collection{
-        grid-template-columns: repeat(2,1fr);
-        margin-left: 20px;
-    }
-    .more{
-        margin-right: 50px;
-    }
-    .account{
-        margin-right: 200px;
-        font-size: 24px;
-    }
-    .text{
-        margin-left: 20px;
-    }
-    .form{
-        margin-left: 5px;
-    }
-    .space{
-        margin-bottom: 2px;
-        padding: 7px;
-    }
-    .button{
-        padding: 10px;
-
-    }
-}
