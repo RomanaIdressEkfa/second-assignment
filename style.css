@@ -204,14 +204,25 @@ body{
  ------------------------------------------ */
 @media (max-width:688px) {
     .container{
-     width: 100%;
+  
      text-align: center;
+     flex-direction: column;
+     margin: 0 auto;
+    
+    }
+    .influencer{
+        
+        margin-left: 40px;
     }
     .info{
-        margin-right: 202px;
-        font-size:16px;
+        margin-right: 140px;
+        font-size:20px;
         text-align: center;
-       
+        margin-top: 35px;
+        margin-left: 15px;
+    }
+    .navbar{
+        display: none;
     }
    
    .camera{
@@ -219,10 +230,12 @@ body{
    }
     .flexbox{
         display: block;
+        margin-top: 5px;
     }
     .journey{
-        font-size: 24px;
-        margin-right: 100px;
+        font-size: ;
+       
+        margin-right: 80px;
     }
     .limit{
         font-size: 15px;
@@ -230,7 +243,9 @@ body{
         margin-right: 140px;
     }
     .popular{
-        margin-left: 40px;
+        padding-left: 12px;
+        margin-left: 20px;
+        font-size: 18px;
     }
     .collection{
         grid-template-columns: repeat(1,1fr);
@@ -238,7 +253,11 @@ body{
         align-items: center;
     }
     .more{
-        margin-right: 50px;
+        margin-left: 60px;
+        text-align: end;
+    }
+    .container{
+        text-align: center;
     }
     .account{
         margin-right: 200px;
@@ -248,7 +267,8 @@ body{
         margin-left: 20px;
     }
     .form{
-        margin-left: 5px;
+        margin-left: 20px;
+        text-align: center;
     }
     .space{
         margin-bottom: 2px;
@@ -259,12 +279,19 @@ body{
 
     }
     footer{
-        width: 100%;
+        max-width: 100%;
     }
 }
+/* --------------------------------
+Media Query end for Mobile Device
+----------------------------------- */
+
+
+
+
 
 /* -------------------------
-Media Query For Table
+Media Query For Tablet
 -------------------------- */
 @media (max-width:992px) and (min-width:689) {
     .container{
@@ -292,7 +319,8 @@ Media Query For Table
         margin-right: 140px;
     }
     .popular{
-        margin-left: 40px;
+        margin-left: 30px;
+        text-align: center;
     }
     .collection{
         grid-template-columns: repeat(2,1fr);
