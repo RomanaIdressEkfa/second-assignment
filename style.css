@@ -204,8 +204,7 @@ body{
  ------------------------------------------ */
 @media (max-width:688px) {
     .container{
-  
-     text-align: center;
+    text-align: center;
      flex-direction: column;
      margin: 0 auto;
     
@@ -259,6 +258,7 @@ body{
         margin-left: 20px;
         align-items: center;
         width: 10px;
+        margin: 0 auto;
     }
     .more{
         margin-left: 60px;
@@ -303,7 +303,6 @@ Media Query end for Mobile Device
 Media Query For Tablet
 -------------------------- */
 @media (max-width:992px) and (min-width:689px) {
-    
         .container{
       
          text-align: center;
@@ -313,15 +312,15 @@ Media Query For Tablet
         }
         .influencer{
             
-            margin-left: 40px;
+            margin-left: 30%;
             text-align: center;
+         
         }
         .info{
-            margin-right: 140px;
-            font-size:16px;
+           width: 100%;
+            font-size:20px;
             text-align: center;
-            margin-top: 35px;
-            margin-left: 15px;
+            
         }
         .navbar{
             display: none;
@@ -360,12 +359,15 @@ Media Query For Tablet
             margin-left: 20px;
             align-items: center;
             width: 10px;
+            display: flex;
         }
         .more{
             margin-left: 60px;
             text-align: end;
+            padding-left: 10%;
         }
         .container{
+            padding-left: 10%;
             max-width: 100%;
             text-align: center;
         }
